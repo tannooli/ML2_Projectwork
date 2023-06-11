@@ -30,15 +30,18 @@ To generate this model I have used the whitepapers from the lessons in the first
 ### First model creation
 To prepare the notebook and check the code I created the model with 10 Epochs and saved it in "ML2_Projectwork\30_train_model\31_trained_model\first_trained_model".
 
-Accuracy and Loss with 10 Epochs:
-<iframe src="https://drive.google.com/file/d/18ht04k9ISJaGU5MMspdQSHhvDHyWEwcc/preview" allow="autoplay"></iframe>
+10 Epochs:
+1/10: loss: 0.2417 - accuracy: 0.8942
+2/10: loss: 0.2184 - accuracy: 0.9169
+3/10: loss: 0.0574 - accuracy: 0.9812
+4/10: loss: 0.0351 - accuracy: 0.9891
+5/10: loss: 0.0264 - accuracy: 0.9917
+6/10: loss: 0.0220 - accuracy: 0.9932
+7/10: loss: 0.0184 - accuracy: 0.9945
+8/10: loss: 0.0141 - accuracy: 0.9954
+9/10: loss: 0.0109 - accuracy: 0.9965
+10/10: loss: 0.0093 - accuracy: 0.9966
 
-Analysis of it:
-<iframe src="https://drive.google.com/file/d/1N-ZPCOQI42IGLOuUCEJvZvjs4rKDRMp5/preview" allow="autoplay"></iframe>
+Time: ca. 1450 minutes
 
-For the project I would recommend to use only three epochs to save time and ressources.
-
-
-
-
-
+For the project I would recommend to use only three epochs to save time and ressources. We can also so that we achieve an accuracy of more than 98% with three epochs.
