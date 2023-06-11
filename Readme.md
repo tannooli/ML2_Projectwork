@@ -21,6 +21,9 @@ Using NLP methods, I want to find out whether I can train a model to find out wh
 ### Not part of the solution
 The determination of whether a message is correct or false is made on the basis of an existing data set. Thus, news must always be classified as "true" or "false" and the model must be trained before the model itself can make statements about them. Thus, the model is not suitable for the latest news or news that are not clearly identifiable thematically, and this is not part of this solution.
 
+### Google Collab
+I have used Visual Studio to create my model locally on my computer and his taken around 6 hours to fullfill everything from data cleaning until model training. If you want to use this notebooks with Google collab then please make sure that you uses the correct source paths to implement the data sets and embedding files or the picker.
+
 ### Data set
 I have used two dataset from Kaggle. The first dataset "True.csv" contains News, which has been labeled as real news. The second dataset "False.csv" contains news, which has been labeled as fake. Both datasets contain the same columns and same data structure.
 
@@ -42,6 +45,6 @@ To prepare the notebook and check the code I created the model with 10 Epochs an
 9/10: loss: 0.0109 - accuracy: 0.9965 <br />
 10/10: loss: 0.0093 - accuracy: 0.9966 <br />
 <br />
-Time: ca. 1450 minutes <br />
+Time: ca. 1'450 minutes <br />
 <br />
 For the project I would recommend to use only three epochs to save time and ressources. We can also so that we achieve an accuracy of more than 98% with three epochs.
