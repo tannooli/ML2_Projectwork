@@ -29,11 +29,12 @@ To generate this model I have used the whitepapers from the lessons in the first
 
 ### First model creation
 To prepare the notebook and check the code I created the model with 10 Epochs and saved it in "ML2_Projectwork\30_train_model\31_trained_model\first_trained_model".
+
 Accuracy and Loss with 10 Epochs:
-<img src="../ML2_Projectwork/00_Readme/00_Source/10_Epochs.png" alt="10 Epochs" />
+<iframe src="https://drive.google.com/file/d/18ht04k9ISJaGU5MMspdQSHhvDHyWEwcc/preview" allow="autoplay"></iframe>
 
 Analysis of it:
-<img src="../ML2_Projectwork/00_Readme/00_Source/10_Epochs_Analysis.png" alt="Epoch Analysis" />
+<iframe src="https://drive.google.com/file/d/1N-ZPCOQI42IGLOuUCEJvZvjs4rKDRMp5/preview" allow="autoplay"></iframe>
 
 For the project I would recommend to use only three epochs to save time and ressources.
 
