@@ -26,3 +26,13 @@ I have used two dataset from Kaggle. The first dataset "True.csv" contains News,
 
 ### Inputs and support
 To generate this model I have used the whitepapers from the lessons in the first weeks of the module, like https://pub.towardsai.net/simple-text-classifier-with-basic-machine-learning-model-fa414791d26e or https://medium.com/analytics-vidhya/nlp-tutorial-for-text-classification-in-python-8f19cd17b49e. I have also used the documentation of the libraries I have used, like https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html or https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html. Besides that I have also checked some other Kaggle projects, like https://www.kaggle.com/parulpandey/getting-started-with-nlp-a-general-intro or https://www.kaggle.com/parulpandey/getting-started-with-nlp-feature-vectors. To implement and change some code from other projects and models and  to solve errors I have also used ChatGPT with different prompts. 
+
+### First model creation
+To prepare the notebook and check the code I created the model with 10 Epochs and saved it in "ML2_Projectwork\30_train_model\31_trained_model\first_trained_model".
+Accuracy and Loss with 10 Epochs:
+![Alt text](00_Source/10_Epochs.png)
+
+Analysis of it:
+![Alt text](00_Source/10_Epochs_Analysis.png)
+
+For the project I would recommend to use only three epochs to save time and ressources.
